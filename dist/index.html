@@ -1,13 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Project</title>
-    <link rel="stylesheet" href="/index.8c1c22dc.css">
-    <script src="/index.18dbc454.js" defer=""></script>
-</head>
-<body>
-    Hello.
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Include favicon - ICO -->
+        <link rel="icon" type="image/x-icon" href="/favicon.be4b0254.ico">
+        <!-- Include favicon - PNG -->
+        <link rel="icon" type="image/png" href="/favicon.c3d66290.png">
+        <title>ROZ Website</title>
+        <!-- Main Template CSS File -->
+        <link rel="stylesheet" href="/index.34df27b5.css">
+        <!-- link to javascript file -->
+        <script src="/index.18dbc454.js" defer=""></script>
+        <!-- Render All Elements Normally -->
+        <link rel="stylesheet" href="/index.0898f127.css">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    <!-- Start Header -->
+    <div class="header">
+        <div class="container">
+            <img class="logo" src="/logo.cd13699a.svg" alt="">
+            <div class="menu" id="menu">
+                <a href="#start">startsida</a>
+                <a href="#publishing">publicering</a>
+                <a href="#proccessing">bildbehandling</a>
+            </div>
+            <div class="menu-btn" id="menu-btn"><span>&#9776;</span> Meny</div>
+        </div>
+    </div>
+    <!-- End Header -->
+    <!-- Start Hero section -->
+    <section class="hero">
+        <picture>
+        <source media="(min-width: 1521px)" srcset="/large_image.e014d84b.jpg">
+        <source media="(min-width: 801px) and (max-width: 1520px)" srcset="/medium_image.9e474750.jpg">
+        <source media="(max-width: 800px)" srcset="/small_image.00dbe3ed.jpg">
+        <img src="/large_image.e014d84b.jpg" alt="Hero Image">
+        </picture>
+    </section>
+    <!-- End Hero section -->
+
+    <!-- Start about Section -->
+    <section id="start" class="container">
+        <div class="products">
+            <h2>om denna uppgift</h2>
+            <div class="product-container">
+                <h3>Syftet med uppgiften är att:</h3>
+                <ul>
+                    <li>Få en inblick hur NodeJS kan användas för att underlätta arbetet med att utveckla en webbplats.</li>
+                    <li>Kunna automatisera uppgifter med något kommandobaserat verktyg i NodeJs, med syfte att förenkla utvecklingsarbetet av en webbplats.</li>
+                    <li>Kunna skapa en automatiserad utvecklingsmiljö baserad på Git och NodeJs för att kunna göra automatisk publicering vid uppdatering av webbplatsen/Git-repot.</li>
+                    <li>Kunna automatisera transpilering och minifiering av CSS, HTML och JavaScript samt automatiskt skapa optimerade grafikfiler.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- End about Seciton -->
+
+    <!-- Start background section -->
+    <section class="background">
+        <div class="background-content">
+            <div class="text-container">
+                <p>Webbutvecklingsprogrammet</p>
+                <p>Mittuniversitetet</p>
+                <button class="click-button">Sök här</button>
+            </div>
+        </div>
+    </section>
+    <!-- End background section -->
+
+    <!-- Start About Me Section -->
+    <section id="publishing" class="container">
+        <div class="about-me">
+            <h2>publicering</h2>
+            <div class="about-me-content">
+                <div class="details">
+                    <div class="detail">
+                        <h3>steg</h3>
+                        <ul>
+                            <li>Installera Node.js</li>
+                            <p>du kan ladda ner den från den officiella webbplatsen: Node.js. Följ installationsinstruktionerna för ditt operativsystem.</p>
+                            <li>Skapa en projektmapp</li>
+                            <p>mkdir front-web-development <br> cd front-web-development </p>
+                            <li>Initiera ett Node.js-projekt</li>
+                            <p>Run the following command to initialize a new Node.js project. This will create a package.json file that will store information about your project and its dependencies. <br> npm init -y</p>
+                            <li>Install Parcel</li>
+                            <p>kör följande kommando för att installera Parcel: <br> npm install -D parcel-bundler</p>
+                            <li>Skapa en HTML-fil</li>
+                            <p>Detta kommer att vara den viktigaste startpunkten för din ansökan</p>
+                            <li>Skapa en Node.js-fil</li>
+                            <p>Den här filen kommer att buntas av Parcel</p>
+                            <li>Kör filen Node.js</li>
+                            <p>kör projektet med följande kommando: <br> npm start</p>
+                            <li>Bygg för produktion</li>
+                            <p>npm run build <br> Detta kommer att skapa en dist-mapp med optimerade och förminskade filer redo för distribution.</p>
+                            <li>tryck till github</li>
+                            <p>efter att ha tryckt på github kommer den att distribueras automatiskt</p>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About Me Section -->
+
+    <!-- Start Processing Section -->
+    <section id="proccessing" class="container">
+        <div class="processing">
+            <h2>Bildbehandling</h2>
+            <div class="processing-content">
+                <div class="processing-step">
+                    <h3>Färgstick</h3>
+                    <div class="images">
+                        <picture>
+                            <source srcset="/fargstick.42ecc550.webp" media="(min-width: 1521px)">
+                            <source srcset="/fargstick.759007d0.jpg" media="(min-width: 769px)">
+                            <img src="/fargstick.759007d0.jpg" alt="fargstick">
+                        </picture>
+                        <picture>
+                            <source srcset="/fargstick_fore.40b32404.webp" media="(min-width: 1521px)">
+                            <source srcset="/fargstick_fore.b0706fa7.jpg" media="(min-width: 769px)">
+                            <img src="/fargstick_fore.b0706fa7.jpg" alt="fargstick_fore">
+                        </picture>
+                    </div>
+                </div>
+                <div class="processing-step">
+                    <h3>Handkolorering och retusch</h3>
+                    <div class="images">
+                        <picture>
+                            <source srcset="/handcoloring.3a5817d7.webp" media="(min-width: 1521px)">
+                            <source srcset="/handcoloring.e9d64e7f.jpg" media="(min-width: 769px)">
+                            <img src="/handcoloring.e9d64e7f.jpg" alt="fargstick">
+                        </picture>
+                        <picture>
+                            <source srcset="/handcoloring_fore.b44702e6.webp" media="(min-width: 1521px)">
+                            <source srcset="/handcoloring_fore.878c7e7d.jpg" media="(min-width: 769px)">
+                            <img src="/handcoloring_fore.878c7e7d.jpg" alt="handcoloring_fore">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Processing Section -->
+
+    <!-- Start GIF Section -->
+    <section class="gif">
+        <div class="gif-content">
+            <img src="/reklam_banner.201dbba5.gif" alt="Product 3">
+        </div>
+    </section>
+    <!-- End GIF Section -->
+
+    <!-- Start Footer -->
+        <div class="footer">
+            &copy; Copyright För och eftemamn, 2022
+        </div>
+    <!-- End Footer -->
+
+    
+    </body>
 </html>

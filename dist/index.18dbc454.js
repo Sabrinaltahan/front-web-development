@@ -590,6 +590,12 @@ console.log((0, _lodashDefault.default).concat([
     40,
     50
 ]));
+// Toggle menu on mobile
+const menuBtn = document.getElementById("menu-btn");
+const menu = document.getElementById("menu");
+menuBtn.addEventListener("click", ()=>{
+    menu.classList.toggle("show-menu");
+});
 
 },{"lodash":"3qBDj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3qBDj":[function(require,module,exports) {
 var global = arguments[3];
