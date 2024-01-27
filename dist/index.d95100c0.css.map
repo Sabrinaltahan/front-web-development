@@ -1,1 +1,0 @@
-{"mappings":"ACCA","sources":["index.d95100c0.css","src/css/main.scss"],"sourcesContent":["body {\n  background-color: #ff0;\n}\n\n/*# sourceMappingURL=index.d95100c0.css.map */\n","$background : yellow;\r\nbody {\r\n    background-color: $background;\r\n}"],"names":[],"version":3,"file":"index.d95100c0.css.map"}
